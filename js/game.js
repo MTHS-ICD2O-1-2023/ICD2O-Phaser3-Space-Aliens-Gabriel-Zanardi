@@ -7,7 +7,7 @@
 // This file contains the JS functions for index.html
 
 //scene imports statements
-import SplashScene from "./splashScene.js"
+import SplashScene from "./splashScene"
 
 // create the new scenes
 const splashScene = new splashScene()
