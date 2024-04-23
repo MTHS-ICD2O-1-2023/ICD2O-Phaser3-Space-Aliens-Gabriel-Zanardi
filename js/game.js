@@ -38,7 +38,6 @@ const config = {
 }
 
 const game = new Phaser.Game(config)
-console.log(game)
 // console.log(game)
 
 // load
