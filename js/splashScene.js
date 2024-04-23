@@ -53,7 +53,7 @@ create(data) {
  */
 update(time, delta) {
   //pass
-}
+  }
 
 /**
  * Shou;d be overriden by your own Scenes.
