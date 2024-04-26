@@ -56,7 +56,7 @@ create(data) {
 
 
 /**
- * Shou;d be overriden by your own Scenes.
+ * Should be overriden by your own Scenes.
  * This method is called once per game step while the scene is running.
  * @param {number} time - The current time
  * @param {number} delta -  The delta time in ms since the last frame
