@@ -9,7 +9,7 @@
 //scene imports statements
 import SplashScene from "./splashScene.js"
 import TitleScene from "./titleScene.js"
-import TitleScene from "./menuScene.js"
+import MenuScene from "./menuScene.js"
 
 
 // create the new scenes
