@@ -23,7 +23,7 @@ class MenuScene extends Phaser.Scene {
 
   /**
    * Can be defined on your own Scenes.
-   * This method is called by the Scene Manatger when the scene starts,
+   * This method is called by the Scene Manager when the scene starts,
    * before preload() and create().
    * @param {object} data - Any dara passed via ScenePlugin.add() or ScenePlugin.start()
    */
@@ -32,7 +32,7 @@ class MenuScene extends Phaser.Scene {
   }
 
   /**
-   * Can be defined on your own Secenes.
+   * Can be defined on your own Scenes.
    * Use it to load assets.
    */
   preload() {
@@ -44,7 +44,7 @@ class MenuScene extends Phaser.Scene {
   /**
    * Can be defined on your own Scenes.
    * Use it to create your game objects.
-   * @param {object} data - Any dara passed via ScenePlugin.add() or ScenePlugin.start() 
+   * @param {object} data - Any data passed via ScenePlugin.add() or ScenePlugin.start() 
    */
   create(data) {
     this.menuSceneBackgroundImage = this.add.sprite(0, 0, "menuSceneBackground")
@@ -57,7 +57,7 @@ class MenuScene extends Phaser.Scene {
   }
 
   /**
-   * Should be overriden by your own Scenes.
+   * Should be overridden by your own Scenes.
    * This method is called once per game step while the scene is running.
    * @param {number} time - The current time.
    * @param {number} delta - The delta time in ms since the last frame.
