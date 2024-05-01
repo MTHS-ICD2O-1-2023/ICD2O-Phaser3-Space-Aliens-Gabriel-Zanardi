@@ -29,14 +29,14 @@ class TitleScene extends Phaser.Scene {
    * Can be defined on your own Scenes.
    * This method is called by the Scene Manager when the scene starts,
    * before preload() and create().
-   * @param {object} data - Any dara passed via ScenePlugin.add() or ScenePlugin.start()
+   * @param {object} data - Any data passed via ScenePlugin.add() or ScenePlugin.start()
    */
   init(data) {
     this.cameras.main.setBackgroundColor("ffffff")
   }
 
   /**
-   * Can be defined on your own Secenes.
+   * Can be defined on your own Scenes.
    * Use it to load assets.
    */
   preload() {
