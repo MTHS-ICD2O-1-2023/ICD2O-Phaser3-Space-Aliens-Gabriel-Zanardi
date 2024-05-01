@@ -27,7 +27,7 @@ class TitleScene extends Phaser.Scene {
 
   /**
    * Can be defined on your own Scenes.
-   * This method is called by the Scene Manatger when the scene starts,
+   * This method is called by the Scene Manager when the scene starts,
    * before preload() and create().
    * @param {object} data - Any dara passed via ScenePlugin.add() or ScenePlugin.start()
    */
