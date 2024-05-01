@@ -28,7 +28,7 @@ class MenuScene extends Phaser.Scene {
    * @param {object} data - Any dara passed via ScenePlugin.add() or ScenePlugin.start()
    */
   init(data) {
-    this.cameras.main.setBackgroundColor("ffffff")
+    this.cameras.main.setBackgroundColor("#ffffff")
   }
 
   /**
@@ -47,7 +47,7 @@ class MenuScene extends Phaser.Scene {
    * @param {object} data - Any dara passed via ScenePlugin.add() or ScenePlugin.start() 
    */
   create(data) {
-    this.menuSceneBackgroundImage = this.add.sprite(0, 0, "menuBackground")
+    this.menuSceneBackgroundImage = this.add.sprite(0, 0, "menuSceneBackground")
     this.menuSceneBackgroundImage.x = 1920 / 2
     this.menuSceneBackgroundImage.y = 1080 / 2
 
