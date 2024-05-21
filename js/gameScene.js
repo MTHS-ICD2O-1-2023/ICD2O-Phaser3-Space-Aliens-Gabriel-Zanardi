@@ -7,7 +7,7 @@
 // This file contains the JS functions for index.html
 
 /**
- * This class is Splash Scene.
+ * This class is Game Scene.
  */
 class GameScene extends Phaser.Scene {
 
@@ -19,7 +19,7 @@ class GameScene extends Phaser.Scene {
     const anAlien = this.physics.add.sprite(alienXLocation, -100, "alien")
     anAlien.body.velocity.y = 200
     anAlien.body.velocity.x = alienXVelocity
-    this.aliensGroup.add(anAlien)
+    this.alienGroup.add(anAlien)
   }
 
   constructor() {
